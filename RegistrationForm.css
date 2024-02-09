@@ -14,25 +14,29 @@ body {
     justify-content: center;
     background: linear-gradient(135deg, #71b7e6, #9b59b6);
     font-family: 'Poppins', sans-serif;
+    text-align: left;
 }
 
 .container {
     position: relative;
     max-width: 900px;
-    width: 100%;
-    border-radius: 6px;
+    width: 200%;
+    border-radius: 16px;
     padding: 30px;
     margin: 0 15px;
     background-color: #fff;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
 }
 
 .container header {
     position: relative;
-    font-size: 20px;
+    font-size: 24px;
     font-weight: 600;
     color: #333;
     margin-bottom: 20px;
+    display: inline-block;
+    margin-right: 600px;
 }
 
 .container header::before {
